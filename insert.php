@@ -20,7 +20,7 @@
       $contect =$_POST['contect' ];
       $address =$_POST['address'];
 
-      $insertqury ="insert into students( NAME, GENDER, CONTECT,ADDRESS )
+      $insertquery ="insert into students( NAME, GENDER, CONTECT,ADDRESS )
       values('$name','$gender','$contect', '$address')";
       $query = mysqli_query ( $con , $insertquery)  ;
       if($query)
